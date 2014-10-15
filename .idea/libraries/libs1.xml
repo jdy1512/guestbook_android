@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/libs/asmack-android-8-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/libs/android-query-full.0.26.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/libs/jsoup-1.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/libs/com.skp.Tmap_1.0.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/libs/microsoft-translator-java-api-0.6.2-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/libs/gcm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/jsoup-1.7.3-401a3dc806b4ee7d648045c1b0a278e0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/android-support-v7-appcompat-eb452c07491ffe8729152a9582523786.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/asmack-android-8-4.0.0-db392d64925be7457cbbff078cd74231.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/com.skp.Tmap_1.0.25-79ad4c67d8459ef905761edd39605f52.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/memorizingactivity-5a8624449f90ed62c98481d49d0e207d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/httpcore-4.2.2-b3b3ff8fa3c27b0bbd366745b10a73c7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/android-query-full.0.26.7-29f695ee6b1bf6596924442bc0c06089.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/gridlayout_v7-6127ffa4b716489b8ae739d02620d5f8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/httpclient-4.2.2-b78bbdbc93dbcebd8da7b212f1d53a0e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/httpmime-4.2.2-c29a54e7cd6f2ac3f86fa731bd00c0ea.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/android-support-v7-appcompat-1c692240b4a1afd8aa9ffb5b6d115533.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/gcm-add6330ac48c1908e59bac01db6385af.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/android-support-v7-gridlayout-b4d132335a6970e24ced22d9de287fc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/google-play-services_lib-1ffe94946da4dcd71624fb31d6800477.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/guava-11.0.1-1d23f3846e245446d3fc4061b16a8235.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/amazinglistview-6c25103b49bf37bcdea5c4c34b74c186.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/nineoldandroids-2.4.0-0d4b011372d0ade9b5a8d12c72c73aba.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/google-play-services-53dffe50b8e750bda200d6c9604ab8e3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/android-support-v4-95831fefdc77793b3fdb9a909e261930.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/slidinguppanellibrary-b32fcd6edfb398b3898f76f047383647.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/facebooksdk-8545a7d5c48884ab6192bfe182f05e00.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AllChange_guestbook/bin/dexedLibs/microsoft-translator-java-api-0.6.2-jar-with-dependencies-bd03badccd3c0c7019c6ab58c99b428d.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

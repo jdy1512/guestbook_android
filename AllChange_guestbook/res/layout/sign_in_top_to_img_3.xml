@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/SignUpLoginIn_tv_4"
+        style="@style/sign_in_step3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+        android:paddingTop="30dp"
+        android:text="@string/sign_in_step3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="@string/sign_in_step3_sub"
+        android:textColor="#6d6e71"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="239dp"
+        android:paddingTop="27dp"
+        android:src="@drawable/sign_in_img_3" />
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="35dp"
+        android:paddingTop="30dp"
+        android:src="#c5c5c6" />
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="20dp"
+        android:paddingTop="15dp"
+        android:src="#c5c5c6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:paddingTop="30dp"
+        android:text="@string/sign_in_sub2"
+        android:textColor="#6d6e71"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="35dp"
+        android:paddingTop="30dp"
+        android:src="#c5c5c6" />
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="20dp"
+        android:paddingTop="15dp"
+        android:src="#c5c5c6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:paddingTop="30dp"
+        android:text="@string/sign_in_sub3"
+        android:textColor="#6d6e71"
+        android:textSize="17sp" />
+
+</LinearLayout>

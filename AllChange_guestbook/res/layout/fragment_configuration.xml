@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/booking_btn_seletor1"
+        android:gravity="center"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:padding="0dp"
+        android:text="@string/settings"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:padding="0dp" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/setting_push"
+                    android:textSize="15sp" />
+
+                <ToggleButton
+                    android:id="@+id/settings_toggle_gcm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/settings_toggle_switch"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:minHeight="40dip"
+                    android:minWidth="40dip"
+                    android:textOff=" "
+                    android:textOn=" " />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@color/main_search_gray" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:padding="0dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:text="Currency"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/white"
+                    android:text="KRW"
+                    android:textColor="@color/app_color"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

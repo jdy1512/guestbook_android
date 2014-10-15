@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ToggleButton
+        android:id="@+id/booking_btn_set_accomodate"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/booking_btn_seletor1"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:padding="0dp"
+        android:text="@string/booking_btn_accamodation"
+        android:textColor="@color/white"
+        android:textOff="@string/booking_btn_accamodation"
+        android:textOn="@string/booking_btn_accamodation"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:id="@+id/booking_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <ToggleButton
+        android:id="@+id/booking_btn_set_purpose"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/booking_btn_seletor2"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:padding="0dp"
+        android:text="@string/booking_btn_purpose"
+        android:textColor="@color/white"
+        android:textOff="@string/booking_btn_purpose"
+        android:textOn="@string/booking_btn_purpose"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:id="@+id/booking_frame_purpose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <ToggleButton
+        android:id="@+id/booking_btn_set_date"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/booking_btn_seletor3"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:padding="0dp"
+        android:text="@string/booking_btn_calendar"
+        android:textColor="@color/white"
+        android:textOff="@string/booking_btn_calendar"
+        android:textOn="@string/booking_btn_calendar"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:id="@+id/booking_frame_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+</LinearLayout>

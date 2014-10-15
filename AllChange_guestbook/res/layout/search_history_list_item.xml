@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/progress_light_gray" >
+
+    <TextView
+        android:id="@+id/hisotry_txetView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="260dp"
+        android:layout_height="2dp"
+        android:layout_gravity="bottom|center"
+        android:background="@color/bg_gray" />
+
+</FrameLayout>

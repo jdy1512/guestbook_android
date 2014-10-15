@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:allchange_bbf="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_tipper"
+        android:icon="@drawable/actionbar_icon_2_pressed"
+        android:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/action_chat"
+        android:icon="@drawable/actionbar_icon_3_normal"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>

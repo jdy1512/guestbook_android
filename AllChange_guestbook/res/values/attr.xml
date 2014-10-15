@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="gb_picker">
+        <attr name="check_indate" format="string" />
+        <attr name="check_outdate" format="string" />
+    </declare-styleable>
+
+</resources>	

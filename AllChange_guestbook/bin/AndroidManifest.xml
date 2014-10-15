@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allchange.guestbook"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+- 
+    <application
+        android:name=".property.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Trippal" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/faceboook_app_id" />
+- 
+        <!-- GOOGLE MAP V2 -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD4oubTQwMpUl_8kUYCpCwMSGcN4EVlL6A" />
+- 
+        <activity
+            android:name=".splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+- 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.MainLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.gps.trace.GPSTraceService" />
+- 
+        <service
+            android:name=".chat.push.MainService"
+            android:enabled="true"
+            android:exported="false" >
+- 
+            <intent-filter>
+                <action android:name="com.allchange.trippal.action.CONNECT" />
+            </intent-filter>
+        </service>
+        <service android:name=".chat.push.ChatService" />
+- 
+        <activity
+            android:name=".bookingsitelist.BookingSiteListActivity"
+            android:screenOrientation="portrait" >
+- 
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:label="@string/title_BookingListActivity_display_message"
+                android:parentActivityName="com.allchange.guestbook.main.TripPalMainActivity"
+                android:value="com.allchange.guestbook.main.TripPalMainActivity" />
+        </activity>
+        <activity
+            android:name=".chat.MessageActivity"
+            android:parentActivityName="com.allchange.guestbook.main.TripPalMainActivity" />
+        <activity
+            android:name=".main.TripPalMainActivity"
+            android:screenOrientation="portrait" />
+- 
+        <activity
+            android:name=".bookingActivity.BookingFrameActivity"
+            android:parentActivityName=".main.TripPalMainActivity"
+            android:screenOrientation="portrait" >
+- 
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.allchange.guestbook.main.TripPalMainActivity" />
+        </activity>
+        <activity
+            android:name=".booking.search.SearchActivity"
+            android:screenOrientation="portrait" />
+- 
+        <receiver android:name=".receivers.PowerReceiver" >
+- 
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+- 
+        <receiver android:name=".receivers.PublicIntentReceiver" >
+- 
+            <intent-filter>
+                <action android:name="com.googlecode.gtalksms.action.CONNECT" />
+                <action android:name="com.googlecode.gtalksms.action.DISCONNECT" />
+                <action android:name="com.googlecode.gtalksms.action.TOGGLE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".setting.map.SettingMapActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

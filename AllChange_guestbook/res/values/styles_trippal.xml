@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Trippal" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_trippal</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Trippal</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Trippal</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Trippal</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Trippal</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Trippal</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_trippal</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_trippal</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Trippal</item>
+    </style>
+
+    <style name="ActionBar.Solid.Trippal" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_trippal</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_trippal</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_trippal</item>
+        <item name="progressBarStyle">@style/ProgressBar.Trippal</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Trippal" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_trippal</item>
+        <item name="progressBarStyle">@style/ProgressBar.Trippal</item>
+    </style>
+
+    <style name="PopupMenu.Trippal" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_trippal</item>
+    </style>
+
+    <style name="DropDownListView.Trippal" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_trippal</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Trippal" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_trippal</item>
+    </style>
+
+    <style name="DropDownNav.Trippal" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_trippal</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_trippal</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_trippal</item>
+    </style>
+
+    <style name="ProgressBar.Trippal" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_trippal</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Trippal" parent="@style/Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_trippal</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Trippal.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Trippal</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Trippal</item>
+    </style>
+
+    <!-- these style are only referenced in a sign in page -->
+    <style name="sign_in_title">
+        <item name="android:textSize">33sp</item>
+        <item name="android:textColor">#f36712</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+
+    <style name="sign_in_sub1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#8b8c8e</item>
+        <item name="android:lineSpacingExtra">-20sp</item>
+    </style>
+
+    <style name="sign_in_step1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666769</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+
+    <style name="sign_in_step1_sub">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#6d6e71</item>
+        <item name="android:lineSpacingExtra">-10sp</item>
+    </style>
+
+    <style name="sign_in_step2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666769</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+
+    <style name="sign_in_step2_sub">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#6d6e71</item>
+        <item name="android:lineSpacingExtra">-10sp</item>
+    </style>
+
+    <style name="sign_in_step3">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666769</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+
+    <style name="sign_in_step3_sub">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#6d6e71</item>
+        <item name="android:lineSpacingExtra">-10sp</item>
+    </style>
+
+    <style name="sign_in_sub2">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#6d6e71</item>
+        <item name="android:maxLines">13</item>
+        <item name="android:lineSpacingExtra">-20sp</item>
+        <item name="android:verticalSpacing">23px</item>
+    </style>
+
+    <style name="sign_in_sub3">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#6d6e71</item>
+        <item name="android:lineSpacingExtra">-20sp</item>
+        <item name="android:verticalSpacing">23sp</item>
+    </style>
+
+</resources>

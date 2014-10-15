@@ -76,7 +76,6 @@ public class PickerFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		Log.e(TAG, "onCreateView");
 		View rootView = inflater.inflate(R.layout.picker, container, false);
 		mViewPager = (ViewPager) rootView;
 		ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(screen_x,
@@ -177,8 +176,6 @@ public class PickerFragment extends Fragment {
 					days += 1;
 					c1.add(Calendar.DAY_OF_MONTH, 1);
 				}
-				Log.e(TAG, "days : " + days);
-				Log.e(TAG, "viewPager : " + mViewPager.toString());
 				mViewPager.setCurrentItem(days, true);
 
 			} catch (ParseException e) {
@@ -297,9 +294,6 @@ public class PickerFragment extends Fragment {
 
 		Date date1 = null;
 		Date date2 = null;
-
-		Log.e(TAG, "dateString1 : " + dateString1);
-		Log.e(TAG, "dateString2 : " + dateString2);
 
 		try {
 			date1 = df1.parse(dateString1);

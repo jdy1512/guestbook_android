@@ -86,7 +86,6 @@ public class UserProfileView extends FrameLayout {
 					MapImageCacheStore.getInstance().put(url, b);
 					iv.setImageBitmap(MyApplication.getCircledBitmap(bitmap,
 							url));
-					Log.e(TAG, "callback");
 				}
 			}
 		};
@@ -101,12 +100,10 @@ public class UserProfileView extends FrameLayout {
 			iv.setImageBitmap(MyApplication.getCircledBitmap(MapImageCacheStore
 					.getInstance().get(mData.profile_img_path.trim()),
 					mData.profile_img_path.trim()));
-			Log.e(TAG, "!= null");
 		} else {
 			AQuery aquery = new AQuery(mContext);
 			bc.cookies(PropertyManager.getInstance().getCookie());
 			aquery.ajax(mData.profile_img_path.trim(), Bitmap.class, bc);
-			Log.e(TAG, "== null");
 		}
 	}
 

@@ -32,7 +32,6 @@ import com.allchange.guestbook.dialog.Dialog_Simple_Profile;
 import com.allchange.guestbook.dialog.Dialog_Simple_Profile.OnSimpleProfileListener;
 import com.allchange.guestbook.picker.PickerFragment;
 import com.allchange.guestbook.picker.PickerFragment.GuestBookPickerListener;
-import com.allchange.guestbook.property.MyApplication;
 import com.allchange.guestbook.property.PropertyManager;
 import com.allchange.guestbook.url.Url;
 import com.androidquery.callback.AjaxStatus;
@@ -77,7 +76,7 @@ public class TripPalsListFragment extends Fragment implements
 		// PickerFragment 클래스 init세팅(picker전체길이, 시작날짜, 끝날짜)
 		picker = new PickerFragment();
 
-		if (!isSetMyHouse()) {
+		if (isSetMyHouse()) {
 			Button btn = (Button) v.findViewById(R.id.main_list_btn_today);
 			btn.setOnClickListener(new View.OnClickListener() {
 				@Override
@@ -106,8 +105,20 @@ public class TripPalsListFragment extends Fragment implements
 		return v;
 	}
 
+	@Override
+	public void onActivityCreated(Bundle savedInstanceState) {
+		getView().post(new Runnable() {
+			@Override
+			public void run() {
+				// code you want to run when view is visible for the first time
+				picker.scrollTo(PropertyManager.getInstance().getCheckin());
+			}
+		});
+		super.onActivityCreated(savedInstanceState);
+	}
 
 	private boolean isSetMyHouse() {
+
 		if (PropertyManager.getInstance().getCheckin().equals("")) {
 			return false;
 		}

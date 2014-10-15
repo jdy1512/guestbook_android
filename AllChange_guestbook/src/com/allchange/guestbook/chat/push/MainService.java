@@ -220,7 +220,7 @@ public class MainService extends Service {
 				// method stub
 				for (String key : listners.keySet()) {
 					// Log.e(TAG, "chat : " + chat.getParticipant()
-					//	+ ", message : " + message.getBody());
+					// + ", message : " + message.getBody());
 					listners.get(key).onMessageReceived(chat, message);
 				}
 			}

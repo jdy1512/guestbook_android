@@ -273,7 +273,8 @@ public class TrippalMapFragment extends Fragment implements
 							.center(latlng)
 							.radius(Double.parseDouble(PropertyManager
 									.getInstance().getRadiusMeter()))
-							.strokeColor(Color.RED)
+							.strokeColor(
+									getResources().getColor(R.color.app_color))
 							.strokeWidth(4.0f)
 							.fillColor(
 									getResources().getColor(

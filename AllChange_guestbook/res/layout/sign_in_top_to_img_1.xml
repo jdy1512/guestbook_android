@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/SignUpLoginIn_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="@string/app_name"
+        android:textColor="#f36712"
+        android:textSize="33sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_sub1"
+        android:textColor="#8b8c8e"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="35dp"
+        android:paddingTop="30dp"
+        android:src="#c5c5c6" />
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="20dp"
+        android:paddingTop="15dp"
+        android:src="#c5c5c6" />
+
+    <TextView
+        android:id="@+id/SignUpLoginIn_tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:lineSpacingExtra="20sp"
+        android:text="@string/sign_in_step1"
+        android:textColor="#666769"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_step1_sub"
+        android:textColor="#f36712"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="239dp"
+        android:paddingTop="27dp"
+        android:src="@drawable/sign_in_img_1"
+        android:textColor="#f36712"
+        android:textSize="33sp" />
+
+</LinearLayout>

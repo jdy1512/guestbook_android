@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 강릉게스트하우스 -->
+    <string name="gangneung_guesthous1">강릉게스트하우스 1호점</string>
+    <string name="gangneung_guesthous2">강릉게스트하우스 2호점</string>
+    <string name="gangneung_guesthous3">강릉게스트하우스 3호점</string>
+    <string name="gangneung_guesthous_add1">강원도 강릉시 안현동 403\-3번지</string>
+    <string name="gangneung_guesthous_add2">강릉시 견소동 9\-1번지</string>
+    <string name="gangneung_guesthous_add3"> 강원 강릉시 사천면 사천진리 86\-39 번지</string>
+
+    <!-- dd -->
+    <string name="market_map_agelimit"><![CDATA[<b>관람가능연령 - </b>]]></string>
+    <string name="market_map_bookingplace"><![CDATA[<b>예매처 - </b>]]></string>
+    <string name="market_map_discountinfofestival"><![CDATA[<b>할인정보 - </b>]]></string>
+    <string name="market_map_eventenddate"><![CDATA[<b>행사종료일 - </b>]]></string>
+    <string name="market_map_eventhomepage"><![CDATA[<b>행사홈페이지 - </b>]]></string>
+    <string name="market_map_eventplace"><![CDATA[<b>행사장소 - </b>]]></string>
+    <string name="market_map_eventstartdate"><![CDATA[<b>행사시작일 - </b>]]></string>
+    <string name="market_map_placeinfo"><![CDATA[<b>행사장위치안내 - </b>]]></string>
+    <string name="market_map_playtime"><![CDATA[<b>공연시간 - </b>]]></string>
+    <string name="market_map_program"><![CDATA[<b>행사프로그램 - </b>]]></string>
+    <string name="market_map_spendtimefestival"><![CDATA[<b>관람소요시간 - </b>]]></string>
+    <string name="market_map_subevent"><![CDATA[<b>부대행사 - </b>]]></string>
+    <string name="market_map_usetimefestival"><![CDATA[<b>이용요금 - </b>]]></string>
+    <string name="market_map_overview">개요</string>
+    <string name="market_map_intro">소개정보</string>
+    <string name="network_check">인터넷을 확인해주세요.</string>
+    <string name="network_error">인터넷을 확인해주세요.</string>
+    <string name="actionbar_title_search">검색</string>
+    <string name="actionbar_title_kozaza">코자자</string>
+    <string name="actionbar_title_gangneung_guesthouse">Guesthouse</string>
+    <string name="actionbar_title_chat">채팅</string>
+    <string name="actionbar_title_setting_map">범위 지정하기</string>
+    <string name="no_data">검색결과가 없습니다.</string>
+    <string name="search_accomdation_hint">숙소 검색</string>
+    <string name="login_pick_account">하나의 계정을 선택해주세요.</string>
+    <string name="set_your_visit">숙소를 지정해야합니다.</string>
+    <string name="time_0sec">0초</string>
+    <string name="time_sec"> 초</string>
+    <string name="time_min"> 분</string>
+    <string name="time_hour"> 시간</string>
+    <string name="short_text">최소 6자 이상</string>
+    <string name="calendar_fine">설정되었습니다.</string>
+    <string name="calendar_bad">설정해주세요.</string>
+    <string name="translate">번역</string>
+    <string name="cancel">취소</string>
+    <string name="delete">삭제</string>
+    <string name="delete_caution">채팅방을 나가시겠습니까?\n대화내용 및 채팅창 정보가 모두 삭제됩니다.</string>
+    <string name="edit_chatroom">채팅방 편집</string>
+    <string name="edit_chatroom_done">편집 완료</string>
+    <string name="logout">로그아웃</string>
+    <string name="logout_caution">로그아웃을 하시시겠습니까?\n대화내용 및 채팅창 정보가 모두 삭제됩니다.</string>
+    <string name="untouch">1. 위의 메뉴 버튼을 누르세요.\r\n\r\n2. 숙소를 검색하기 위해 +버튼을 누르세요.</string>
+    <!--  -->
+    <string name="sign_in_sub1">Let\'s get started! Your real local tour.</string>
+    <string name="sign_in_step1">STEP 1</string>
+    <string name="sign_in_step1_sub">당신이 예약한 숙소를 검색하세요.</string>
+    <string name="sign_in_step2">STEP 2</string>
+    <string name="sign_in_step2_sub">당신의 여행 일정을 입력하세요.</string>
+    <string name="sign_in_step3">STEP 3</string>
+    <string name="sign_in_step3_sub">여러분과 함께 숙박하는\n다른 여행객과 이야기를 나눠 보세요.</string>
+    <string name="sign_in_sub2">원하는 검색 범위를 설정하면, 주변 여행객과도 이야기를 나눌 수 있습니다.</string>
+    <string name="sign_in_sub3">또한, 내 주변에서 여행객들에게 \n가장 인기 있는 명소도 확인하세요.\r\n꼭 가봐야 할 내 주변 관광명소, 이젠 놓치지 마세요!</string>
+    <string name="sign_in_sub4">Discover beyond the travel\r\nwith guestbook</string>
+
+    <string-array name="month_array">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+
+    <string name="map_tab_newsfeed">뉴스피드</string>
+    <string name="map_tab_search_people">날짜별검색</string>
+    <string name="setting_map_done">완료</string>
+    <string name="temperature">"\u00B0"</string>
+    <string name="log_out">로그아웃</string>
+    <string name="market_map">마켓 맵</string>
+    <string name="configuration">설정</string>
+    <string name="term_and_condition">약관</string>
+    <string name="menu">메뉴</string>
+    <string name="main">메인</string>
+    <string name="mytrips">여행기록</string>
+    <string name="settings">설정</string>
+    <string name="setting_push">알림 설정</string>
+    <string name="loading">로딩\.\.\.</string>
+    <string name="term_done">완료</string>
+    <string name="dialog_chat_1to1">1:1 채팅</string>
+    <string name="dialog_profile">프로필</string>
+    <string name="calendar_set_not_yet">날짜를 선택해주세요.</string>
+    <string name="calendar_set_done">완료</string>
+    <string name="calendar_done">완료</string>
+    <string name="calendar_monday">월</string>
+    <string name="calendar_tuesday">화</string>
+    <string name="calendar_wednesday">수</string>
+    <string name="calendar_thursday">목</string>
+    <string name="calendar_friday">금</string>
+    <string name="calendar_saturday">토</string>
+    <string name="calendar_sunday">일</string>
+    <string name="login_facebook">facebook</string>
+    <string name="login_google">google</string>
+    <string name="feed_refreshing">새로고침중</string>
+    <string name="feed_refresh">새로고침</string>
+    <string name="chatting">채팅</string>
+    <string name="title_BookingListActivity_display_message">목록</string>
+    <string name="app_name">guestbook</string>
+    <string name="action_settings">설정</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="faceboook_app_id">223694251160718</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="facebook">facebook</string>
+    <string name="under_today"><u>오늘</u></string>
+    <string name="under_checkin"><u>체크인</u></string>
+
+    <!-- booking_activity -->
+    <string name="booking_btn_accamodation">숙소</string>
+    <string name="booking_btn_purpose">목적</string>
+    <string name="booking_btn_calendar">날짜</string>
+
+    <!-- booking_pusrpose -->
+    <string name="booking_pusrpose_vacation">여행</string>
+    <string name="booking_pusrpose_business">사업</string>
+    <string name="booking_pusrpose_convention">집회</string>
+    <string name="booking_pusrpose_visitRelatvie">친지방문</string>
+    <string name="booking_pusrpose_individual">혼자</string>
+    <string name="booking_pusrpose_couple">연인</string>
+    <string name="booking_pusrpose_family">가족</string>
+    <string name="booking_pusrpose_group">그룹</string>
+    <string name="booking_pusrpose_attractions">명소</string>
+    <string name="booking_pusrpose_local">식도락</string>
+    <string name="booking_pusrpose_entertainment">레져</string>
+    <string name="booking_pusrpose_love">사랑</string>
+
+    <!-- filters_fragment.xml -->
+    <string name="filtersFragment_filters">필터</string>
+    <string name="filtersFragment_TravelDates">여행 기간</string>
+    <string name="filtersFragment_Arrives">도착</string>
+    <string name="filtersFragment_Departs">출발</string>
+    <string name="filtersFragment_Guests">여행객수</string>
+    <string name="filtersFragment_priceRage">가격</string>
+    <string name="filtersFragment_advancedFilters">Advanced filters</string>
+
+    <!-- navigation drawer.xml -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <!-- TrippalMapFragment.xml -->
+    <string name="no_search_data">no data</string>
+
+</resources>

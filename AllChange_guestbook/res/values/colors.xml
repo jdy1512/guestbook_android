@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_background">#eeeeee</color>
+    <color name="app_color">#f26513</color>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="bg_gray">#D6D7D8</color>
+    <color name="bg_pink">#FF5552</color>
+    <color name="signup_login_text_white">#FFFFFD</color>
+    <color name="progress_pink">#F05557</color>
+    <color name="progress_light_gray">#E2E3E4</color>
+    <color name="progress_dark_gray">#C6C6C6</color>
+    <color name="progress_light_pink">#F6CFD6</color>
+    <color name="login_btn_back">#E0E0E0</color>
+    <color name="actionbar_text">#E0E0E0</color>
+    <color name="map_circle_fill">#88FF5552</color>
+    <color name="feed_text_time">#f8a471</color>
+    <color name="main_darkgray">#b3b3b4</color>
+    <color name="main_topbox_bg">#2f3e4a</color>
+    <color name="main_feed_name">#f36712</color>
+    <color name="main_feed_text">#77797b</color>
+    <color name="main_search_btn_selected">#c65916</color>
+    <color name="main_search_btn_normal">#f36712</color>
+    <color name="main_search_btn_unenable">#929394</color>
+    <color name="main_search_gray">#eeeeee</color>
+    <color name="fedd_background">#ededed</color>
+    <color name="calendar_text_date_seleted">#2f3e4a</color>
+    <color name="calendar_text_date_normal">#2f3e4a</color>
+    <color name="calendar_text_date_out_month">#c5c5c5</color>
+    <color name="calendar_bg_period">#332f3e4a</color>
+    <color name="main_untouble">#cceeeeee</color>
+
+</resources>

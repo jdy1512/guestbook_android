@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="55dp" >
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="35dp"
+        android:src="@color/main_darkgray" />
+
+    <ImageView
+        android:id="@+id/feed_backline"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:src="@color/main_darkgray" />
+
+    <TextView
+        android:id="@+id/list_news_feed_Item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="7dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:text="@string/feed_refresh"
+        android:textColor="@color/main_darkgray"
+        android:textSize="13sp" />
+
+    <ToggleButton
+        android:id="@+id/feed_toggle_update"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/toggle_update_feed"
+        android:textOff=" "
+        android:textOn=" " />
+
+</FrameLayout>

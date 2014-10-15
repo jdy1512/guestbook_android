@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="29dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_vacation"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_vacation"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_vacation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_vacation"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="29dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_business"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_business"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_business"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="29dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_convention"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_convention"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_convention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_convention"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="29dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_visitRelatvie"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_visit_realative"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_visitRelatvie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/booking_pusrpose_visitRelatvie"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/main_darkgray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="29dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_individual"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_individual"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_individual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_individual"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="29dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_couple"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_couple"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_couple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_couple"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="29dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_family"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_family"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_family"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="29dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_group"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_group"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_group"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@color/main_darkgray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_attractions"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_attraction"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_attractions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_attractions"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_local"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_local"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_local"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_entertainment"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_entertainment"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_entertainment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxWidth="70dp"
+                android:text="@string/booking_pusrpose_entertainment"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/booking_purpose_btn_love"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/purpose_item_love"
+                android:textOff=" "
+                android:textOn=" " />
+
+            <TextView
+                android:id="@+id/booking_purpose_tv_love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/booking_pusrpose_love"
+                android:textColor="@color/main_darkgray"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

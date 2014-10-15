@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/main_layout_tab_btn"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/white" >
+
+            <FrameLayout
+                android:id="@+id/main_tab_btn_search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/topbar_bg_selected" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="3dp" >
+
+                    <ImageView
+                        android:id="@+id/main_tab_iv_search"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/topbar_icon_2_selected" />
+
+                    <TextView
+                        android:id="@+id/main_tab_tv_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/map_tab_search_people"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/main_tab_btn_newsfeed"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/topbar_bg_default" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="3dp" >
+
+                    <ImageView
+                        android:id="@+id/main_tab_iv_newsfeed"
+                        android:layout_width="15dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/topbar_icon_1_default" />
+
+                    <TextView
+                        android:id="@+id/main_tab_tv_newsfeed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/map_tab_newsfeed"
+                        android:textColor="@color/main_darkgray"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/main_topbox_bg" >
+
+            <TextView
+                android:id="@+id/main_tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="#ddffffff" />
+
+            <TextView
+                android:id="@+id/main_tv_bounds"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.3"
+                android:gravity="right|center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/main_btn_bounds"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/range_icon"
+                android:minHeight="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.app.FragmentTabHost
+        android:id="@+id/tabHost"
+        android:layout_marginTop="85dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="0dp"
+                android:layout_height="0dp" />
+
+            <FrameLayout
+                android:id="@+id/realtabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </LinearLayout>
+    </android.support.v4.app.FragmentTabHost>
+
+    <FrameLayout
+        android:id="@+id/main_layout_untouch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_untouble"
+        android:clickable="false"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/main_default_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="65dp"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/untouch"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="purposes">
+        <item>@string/booking_pusrpose_vacation</item>
+        <item>@string/booking_pusrpose_business</item>
+        <item>@string/booking_pusrpose_convention</item>
+        <item>@string/booking_pusrpose_visitRelatvie</item>
+        <item>@string/booking_pusrpose_individual</item>
+        <item>@string/booking_pusrpose_couple</item>
+        <item>@string/booking_pusrpose_family</item>
+        <item>@string/booking_pusrpose_group</item>
+        <item>@string/booking_pusrpose_attractions</item>
+        <item>@string/booking_pusrpose_local</item>
+        <item>@string/booking_pusrpose_entertainment</item>
+        <item>@string/booking_pusrpose_love</item>
+    </array>
+
+</resources>
